@@ -1,0 +1,30 @@
+{
+  "name": "Mutation-Testing-Demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "jest",
+    "test:w": "jest --watch",
+    "test:c": "jest --coverage",
+    "stryker": "stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDD-Solidity/Mutation-Testing-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TDD-Solidity/Mutation-Testing-Demo/issues"
+  },
+  "homepage": "https://github.com/TDD-Solidity/Mutation-Testing-Demo#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^6.4.2",
+    "@stryker-mutator/jest-runner": "^6.4.2",
+    "jest": "^29.5.0",
+    "stryker": "^0.35.1",
+    "stryker-api": "^0.24.1"
+  }
+}
